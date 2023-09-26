@@ -1,0 +1,20 @@
+@font-face {
+  src: url('./takeaway.ttf') format('truetype');
+  font-family: Takeaway;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  z-index: -1000;
+  background-color: #c4e34c;
+  padding: 10px;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: auto;
+}
